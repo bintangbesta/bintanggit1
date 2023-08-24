@@ -1,0 +1,51 @@
+Git adalah salah satu sistem pengontrol versi (Version Control System) pada proyek perangkat lunak yang diciptakan oleh Linus Torvalds. Pengontrol versi bertugas mencatat setiap perubahan pada file proyek yang dikerjakan oleh banyak orang maupun sendiri. Untuk memahami lebih dalam tentang apa itu GIT, kamu perlu menyimak pengertian mengenai version control system.
+
+Version Control System
+Version Control System adalah sebuah kategori software yang membantu sebuah tim software mengelola perubahan pada source code. Version control system mencatat semua modifikasi yang dilakukan ke kode di sebuah database khusus. Jika terjadi sebuah kesalahan, developer bisa melihat kode versi awal untuk memperbaiki kesalahan dengan disrupsi minimal.
+Untuk semua projek software, source code adalah sebuah asset yang penting. Untuk kebanyakan orang, source code adalah tempat penyimpanan pengetahuan dan pemahaman yang tak ternilai tentang berbagai masalah yang dicatat dan diperbaiki oleh para developer. Git dikenal juga dengan distributed revision control (VCS terdistribusi), artinya penyimpanan database Git tidak hanya berada dalam satu tempat saja.
+
+Semua orang yang terlibat dalam pengkodean proyek akan menyimpan database Git, sehingga akan memudahkan dalam mengelola proyek baik online maupun offline. Dalam Git terdapat merge untuk menyebut aktifitas penggabungan kode.
+Sedangkan pada VCS (Version Control System) yang terpusat database disimpan dalam satu tempat dan setiap perubahan disimpan ke sana.
+
+VCS terpusat memiliki beberapa kekurangan:
+1.	Semua tim harus terkoneksi ke jaringan untuk mengakses source-code;
+2.	Tersimpan di satu tempat, nanti kalau server bermasalah bagaimana?
+3.	Karena itu, Git hadir untuk menutupi kerkurangan yang dimiliki oleh VCS terpusat.
+
+Fitur pada Git
+Anda perlu mengetahui fitur-fitur yang terdapat pada Git, yaitu:
+1.	Distributed System
+	Dengan sistem ini, Git memungkinkan pengguna untuk bekerja secara bersamaan pada project yang sama dari seluruh 	dunia, tanpa menggangu pekerjaan orang lain.
+2.	Branching
+	Dengan Git, maka membuat, menghapus atau menggabungkan branch akan lebih cepat, lancar dan tidak memakan banyak 	waktu. Hal ini juga memungkinkan para developer memiliki branch code yang independent dan massive.
+3.	Open-source
+	Git merupakan open-source karena  memberikan fleksibilitas untuk memodifikasi kode sumbernya sesuai dengan 	kebutuhan pengguna atau kebutuhan dari developer. Selain itu, memungkinkan banyak orang untuk bekerja pada proyek 	yang sama dan bekerja sama satu sama lain dengan sangat efisien. Hal ii dirancang sedemikian rupa sehingga dapat 	menangani proyek-proyek kecil dan besar dengan mudah.
+4.	Version Control System yang terdistribusi
+	Git menggunakan pendekatan yang disebut peer-to-peer yang berbeda dengan metode lain seperti subversion atau SVN 	yang menggunakan model client-server
+5.	Non-linear development
+	Git memungkinkan pengguna dari seluruh dunia untuk melakukan operasi pada project dari jarak jauh. Seorang 	pengguna dapat mengambil bagian mana pun dari proyek dan melakukan operasi yang diperlukan dan kemudian 	memperbarui project lebih lanjut. Hal ini dapat dilakukan dengan non-linear development.
+6.	Penyimpanan media berada pada folder .git
+	Hal ini tentu berbeda dengan VCS lain contohnya seperti SVN atau CVS. Karena metadata file yang sudah disimpan 	dalam sebuah folder tersembunyi. Contohnya seperti .cvs, .svn, .etc.
+7.	Lightweight
+	Git menyimpan semua data dari repository pusat ke repository local saat cloning selesai. Hal ini memungkinkan ada 	ratusan pengguna yang mengerjakan proyek yang sama dan karenanya data pada repository pusat akan sangat besar. Git 	memiliki fitur lossless compression data yang dapat mengompresi data menjadi sangat minim dan menyimpannya di 	repository local.
+8.	Staging Area atau Index
+	Git memiliki staging area, dengan begitu developer akan dapat memformat commit atau bisa juga membuatnya agar 	dapat di-review sebelum akhirnya diterapkan secara benar.
+
+Manfaat Git
+•	Memudahkan dalam berkolaborasi dalam satu atau lebih project
+	Dengan Git, akan sangat memudahkan para developer untuk berpartisipasi dalam sebuah pengembangan project yang 	dilakukan oleh orang-orang.
+•	Memudahkan programmer untuk mengetahui perubahan source codenya
+	Anda tidak perlu  membuat file baru yang jumlahnya banyak dengan nama yang berbeda karena dengan Git programmer 	dapat medeteksi secara langsung perubahan yang ada. Terdapat istilah commit pada Git yang berfungsi untuk 	menyimpan riwayat perubahan data pada file. Melalui commit, developer dapat kembali ke source code sebelumnya 	dengan istilah checkout. Selain itu, Git menyimpan seluruh versi source code.
+•	Dapat disimpan dengan offline ataupun online
+	Untuk mengoperasikan Git, Anda perlu menginstall software terlebih dahulu, sehingga pekerjaan ini dapat dilakukan 	secara offline (tidak terkoneksi internet). Software ini juga tersedia secara gratis melalui web unduhan resminya 	di Git Downloading.
+•	Penggunaan Git dalam Pengembangan Perangkat Lunak
+	Materi ini menjelaskan bagaimana Git digunakan dalam pengembangan perangkat lunak:
+•	Inisialisasi Repositori: Membuat repository baru untuk proyek.
+•	Mengimpor Repositori: Mengimpor proyek yang sudah ada ke Git.
+•	Commit dan Push: Melakukan commit pada perubahan dan mengunggahnya ke repositori.
+•	Branching dan Merging: Membuat cabang, melakukan perubahan, dan menggabungkan perubahan kembali ke branch utama.
+•	Kolaborasi: Bekerja dengan tim, melakukan pull request, dan meriview perubahan.
+
+
+Kesimpulan: 
+Materi pengenalan Git memberikan landasan penting bagi pengembang perangkat lunak untuk memahami cara menggunakan Git dalam mengelola proyek dan kode sumber. Dengan memahami konsep dasar Git, manfaatnya, dan langkah-langkah penggunaannya, pengembang dapat berkolaborasi dengan lebih efisien dan mengelola kode sumber dengan lebih terstruktur
